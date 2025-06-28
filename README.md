@@ -63,6 +63,19 @@ Student Developer | Java & MySQL Enthusiast
 | phone       | VARCHAR(15) | Contact number         |
 | gender      | VARCHAR(10) | Male/Female            |
 
+### 📄 Users Table (SQL)
+
+```sql
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50),
+    email VARCHAR(100) UNIQUE,
+    password VARCHAR(50),
+    phone VARCHAR(15),
+    gender VARCHAR(10)
+);
+
+
 
 
 

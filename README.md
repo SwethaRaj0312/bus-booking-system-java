@@ -39,7 +39,7 @@ Student Developer | Java & MySQL Enthusiast
 
 ---
 
-## 🧰 Tech Stack
+## 🛠️ Tech Stack
 
 | Layer              | Technology                  |
 |--------------------|-----------------------------|
@@ -47,7 +47,7 @@ Student Developer | Java & MySQL Enthusiast
 | GUI Framework      | Java Swing                  |
 | Database           | MySQL                       |
 | DB Connectivity    | JDBC (Java Database Connectivity) |
-| IDE                | Eclipse (or IntelliJ)       |
+| IDE                | Eclipse        |
 
 
 ---

@@ -51,8 +51,10 @@ Student Developer | Java & MySQL Enthusiast
 
 
 ---
+git add database/busbookingdb.sql
+git commit -m "Add MySQL database schema (busbookingdb.sql)"
+git push origin main
 
-mysqldump -u root -p bus_booking > bus_booking.sql
 
 
 

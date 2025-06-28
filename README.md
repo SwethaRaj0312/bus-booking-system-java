@@ -35,14 +35,22 @@ Student Developer | Java & MySQL Enthusiast
 ---
 
 ## 📂 Project Structure
-BusBookingSystemJava/
--src/
-    -Bus/                    
-        -BusBookingSystem.java
-        -DBConnection.java
-- lib/        
-     -mysql-connector-j-9.3.0.jar
+
 
 ---
+
+## 🧰 Tech Stack
+
+| Layer              | Technology                  |
+|--------------------|-----------------------------|
+| Language           | Java                        |
+| GUI Framework      | Java Swing                  |
+| Database           | MySQL                       |
+| DB Connectivity    | JDBC (Java Database Connectivity) |
+| IDE                | Eclipse (or IntelliJ)       |
+
+
+---
+
 
                   

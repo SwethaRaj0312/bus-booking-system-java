@@ -52,28 +52,68 @@ Student Developer | Java & MySQL Enthusiast
 
 ---
 
+-📋MYSQL Structure
+--
+
 ### 🧾 Users Table Structure
 
-| Column Name | Data Type   | Description           |
-|-------------|-------------|------------------------|
-| id          | INT (PK)    | Unique user ID         |
-| name        | VARCHAR(50) | Full name              |
-| email       | VARCHAR(100)| Email address (unique) |
-| password    | VARCHAR(50) | Hashed password        |
-| phone       | VARCHAR(15) | Contact number         |
-| gender      | VARCHAR(10) | Male/Female            |
+| Column Name | Data Type      | Description                          |
+|-------------|----------------|--------------------------------------|
+| id          | INT            | Unique ID for each user (Primary Key, Auto Increment) |
+| username    | VARCHAR(50)    | Unique username for login            |
+| password    | VARCHAR(100)   | User's password (hashed or plain)    |
+| full_name   | VARCHAR(100)   | User's full name                     |
+| phone       | VARCHAR(20)    | Contact number (optional)            |
+| security_qn | VARCHAR(255)   | Security question for password recovery |
+| answer      | VARCHAR(255)   | Answer to the security question      |
+| email       | VARCHAR(100)   | Email address                        |
+| address     | VARCHAR(255)   | Residential address (optional)       |
+| dob         | DATE           | Date of birth                        |
 
-### 📄 Users Table (SQL)
 
-```sql
-CREATE TABLE users (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(50),
-    email VARCHAR(100) UNIQUE,
-    password VARCHAR(50),
-    phone VARCHAR(15),
-    gender VARCHAR(10)
-);
+### 📦 Bookings Table Structure
+
+| Column Name   | Data Type       | Description                              |
+|---------------|-----------------|------------------------------------------|
+| booking_id    | INT             | Unique booking ID (Primary Key)          |
+| username      | VARCHAR(100)    | Username of the customer who booked      |
+| from_place    | VARCHAR(100)    | Source location                          |
+| to_place      | VARCHAR(100)    | Destination location                     |
+| journey_date  | DATE            | Date of travel                           |
+| seats         | INT             | Number of seats booked                   |
+| class         | VARCHAR(50)     | Travel class (e.g., AC, Non-AC)          |
+| bus_id        | INT             | Associated bus ID                        |
+| booking_time  | TIMESTAMP       | Time when the booking was made           |
+| total_fare    | DECIMAL(10,2)   | Total fare for the booking               |
+
+
+### 👥 Passengers Table Structure
+
+| Column Name   | Data Type     | Description                            |
+|---------------|---------------|----------------------------------------|
+| passenger_id  | INT           | Unique ID for each passenger (Primary Key) |
+| booking_id    | INT           | ID referencing the associated booking  |
+| name          | VARCHAR(100)  | Full name of the passenger             |
+| age           | INT           | Age of the passenger                   |
+| gender        | VARCHAR(20)   | Gender of the passenger                |
+| category      | VARCHAR(20)   | Category (e.g., Adult, Child, Senior)  |
+
+
+### 🚌 Buses Table Structure
+
+| Column Name      | Data Type       | Description                                 |
+|------------------|-----------------|---------------------------------------------|
+| bus_id           | INT             | Unique ID for each bus (Primary Key)        |
+| bus_name         | VARCHAR(100)    | Name of the bus                             |
+| from_city        | VARCHAR(100)    | Departure city                              |
+| to_city          | VARCHAR(100)    | Destination city                            |
+| seat_class       | VARCHAR(50)     | Seat type (e.g., AC, Non-AC)                |
+| departure_time   | VARCHAR(20)     | Scheduled departure time                    |
+| available_seats  | INT             | Number of seats currently available         |
+| distance_km      | INT             | Distance between from_city and to_city (km) |
+| amount_per_seat  | DECIMAL(10,2)   | Fare per seat                               |
+
+
 
 
 

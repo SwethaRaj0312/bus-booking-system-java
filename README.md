@@ -12,15 +12,25 @@ This desktop application allows users to **login**, **view buses**, **book ticke
 
 ---
 
+---
+
+## 👨‍💼 Developed By
+
+**Swetha R**  
+Student Developer | Java & MySQL Enthusiast  
+
+---
+
 ## ✨ Features
-- ✅ Customer login
-- ✅ View available buses
-- ✅ Book & Cancel tickets
-- ✅ Payment screen
-- ✅ View all my bookings
-- ✅ Submit and view reviews
-- ✅ View/Edit profile
-- ✅ Multithreaded scrolling banner
+- 🔐 Customer login
+- 🏠 Dashboard
+- 🚌 View available buses
+- 🎟️Book tickets
+- ❌Cancel tickets
+- 💳Payment screen
+-  📖View all my bookings
+- 👤View/Edit profile
+  
 
 ---
 

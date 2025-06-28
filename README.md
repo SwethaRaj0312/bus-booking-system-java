@@ -51,9 +51,18 @@ Student Developer | Java & MySQL Enthusiast
 
 
 ---
-git add database/busbookingdb.sql
-git commit -m "Add MySQL database schema (busbookingdb.sql)"
-git push origin main
+
+### 🧾 Users Table Structure
+
+| Column Name | Data Type   | Description           |
+|-------------|-------------|------------------------|
+| id          | INT (PK)    | Unique user ID         |
+| name        | VARCHAR(50) | Full name              |
+| email       | VARCHAR(100)| Email address (unique) |
+| password    | VARCHAR(50) | Hashed password        |
+| phone       | VARCHAR(15) | Contact number         |
+| gender      | VARCHAR(10) | Male/Female            |
+
 
 
 

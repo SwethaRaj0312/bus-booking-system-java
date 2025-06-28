@@ -14,7 +14,7 @@ This desktop application allows users to **login**, **view buses**, **book ticke
 
 ---
 
-## 👨‍💼 Developed By
+## 👩‍💻 Developed By
 
 **Swetha R**  
 Student Developer | Java & MySQL Enthusiast  
@@ -51,6 +51,10 @@ Student Developer | Java & MySQL Enthusiast
 
 
 ---
+
+mysqldump -u root -p bus_booking > bus_booking.sql
+
+
 
 
                   

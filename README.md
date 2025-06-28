@@ -35,3 +35,12 @@ Student Developer | Java & MySQL Enthusiast
 ---
 
 ## 📂 Project Structure
+BusBookingSystemJava/
+│
+├── src/
+│   └── Bus/                    
+│       ├── BusBookingSystem.java
+│       ├──DBConnection.java
+├── lib/        
+     └──mysql-connector-j-9.3.0.jar
+                  

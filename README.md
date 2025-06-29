@@ -35,7 +35,7 @@ Student Developer | Java & MySQL Enthusiast
 ---
 
 ## 📁 Project Structure
-
+```bash
 - **BusBookingSystemJava/**
   - `src/`
     - `Bus/`
@@ -43,7 +43,7 @@ Student Developer | Java & MySQL Enthusiast
       - `DBConnection.java` – Handles MySQL JDBC connection
   - `.classpath`, `.project` – Eclipse configuration files
   - `Referenced Libraries/` – External libraries (JRE etc.)
-  
+  ```
 
 ---
 
@@ -152,10 +152,10 @@ Student Developer | Java & MySQL Enthusiast
 
 5.Configure Credentials in DBConnection.java
 ```bash
--    String url = "jdbc:mysql://localhost:3306/busbookingdb";
--    String user = "root";
--    String pass = "Swetha3123!";
-
+   String url = "jdbc:mysql://localhost:3306/busbookingdb";
+   String user = "root";
+   String pass = "Swetha3123!";
+```
 6.Run the Project
 -    Right-click BusBookingSystem.java → Run As → Java Application
 

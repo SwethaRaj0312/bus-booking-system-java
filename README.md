@@ -43,10 +43,7 @@ Student Developer | Java & MySQL Enthusiast
       - `DBConnection.java` – Handles MySQL JDBC connection
   - `.classpath`, `.project` – Eclipse configuration files
   - `Referenced Libraries/` – External libraries (JRE etc.)
-  - `Sample/` – (Optional folder, if unused you can ignore)
-
-
-
+  
 
 ---
 
@@ -125,7 +122,7 @@ Student Developer | Java & MySQL Enthusiast
 | amount_per_seat  | DECIMAL(10,2)   | Fare per seat                               |
 
 
-
+---
 
 
 

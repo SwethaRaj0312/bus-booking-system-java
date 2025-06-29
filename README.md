@@ -125,8 +125,38 @@ Student Developer | Java & MySQL Enthusiast
 ---
 
 
+## ▶️ How to Run the Project
 
+### 🔧 Prerequisites
+- Java JDK 17 or above installed
+- MySQL Server installed and running
+- Eclipse IDE or IntelliJ IDEA
+- MySQL JDBC Driver (`mysql-connector-java-x.x.x.jar`)
 
+### 🛠️ Steps
 
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/BusBookingSystemJava.git
 
+2.Open in Eclipse
+    File → Open Projects → Select BusBookingSystemJava
+
+3.Add JDBC Connector JAR
+    Right-click project → Build Path → Configure Build Path → Libraries → Add External JARs
+
+4.Setup MySQL Database
+    CREATE DATABASE busbookingdb;
+    USE busbookingdb;
+    SOURCE database/bus_booking.sql;
+
+5.Configure Credentials in DBConnection.java
+    String url = "jdbc:mysql://localhost:3306/busbookingdb";
+    String user = "root";
+    String pass = "Swetha3123!";
+
+6.Run the Project
+    Right-click BusBookingSystem.java → Run As → Java Application
+
+---
                   

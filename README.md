@@ -151,6 +151,7 @@ Student Developer | Java & MySQL Enthusiast
 -    SOURCE database/bus_booking.sql;
 
 5.Configure Credentials in DBConnection.java
+```bash
 -    String url = "jdbc:mysql://localhost:3306/busbookingdb";
 -    String user = "root";
 -    String pass = "Swetha3123!";

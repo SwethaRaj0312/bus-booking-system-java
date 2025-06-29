@@ -146,17 +146,17 @@ Student Developer | Java & MySQL Enthusiast
 -    Right-click project → Build Path → Configure Build Path → Libraries → Add External JARs
 
 4.Setup MySQL Database
-    CREATE DATABASE busbookingdb;
-    USE busbookingdb;
-    SOURCE database/bus_booking.sql;
+-    CREATE DATABASE busbookingdb;
+-    USE busbookingdb;
+-    SOURCE database/bus_booking.sql;
 
 5.Configure Credentials in DBConnection.java
-    String url = "jdbc:mysql://localhost:3306/busbookingdb";
-    String user = "root";
-    String pass = "Swetha3123!";
+-    String url = "jdbc:mysql://localhost:3306/busbookingdb";
+-    String user = "root";
+-    String pass = "Swetha3123!";
 
 6.Run the Project
-    Right-click BusBookingSystem.java → Run As → Java Application
+-    Right-click BusBookingSystem.java → Run As → Java Application
 
 ---
                   

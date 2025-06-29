@@ -60,7 +60,7 @@ Student Developer | Java & MySQL Enthusiast
 
 ---
 
-📋MYSQL Datebase Structure
+📋MYSQL Database Structure
 --
 
 ### 🧾 Users Table Structure

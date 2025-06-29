@@ -1,7 +1,7 @@
 # Java JDBC Bus Booking System 🚍
 
 A complete **Bus Booking System** built using **Java Swing**, **JDBC**, and **MySQL**.  
-This desktop application allows users to **login**, **view buses**, **book tickets**, **cancel bookings**, **view bookings**, **submit reviews**, and **edit profiles** — all via a graphical interface.
+This desktop application allows users to **login**, **view buses**, **book tickets**, **cancel bookings**, **view bookings**,  and **edit profiles** — all via a graphical interface.
 
 ---
 
@@ -34,7 +34,18 @@ Student Developer | Java & MySQL Enthusiast
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
+
+- **BusBookingSystemJava/**
+  - `src/`
+    - `Bus/`
+      - `BusBookingSystem.java` – Main GUI logic and page flow
+      - `DBConnection.java` – Handles MySQL JDBC connection
+  - `.classpath`, `.project` – Eclipse configuration files
+  - `Referenced Libraries/` – External libraries (JRE etc.)
+  - `Sample/` – (Optional folder, if unused you can ignore)
+
+
 
 
 ---
@@ -52,7 +63,7 @@ Student Developer | Java & MySQL Enthusiast
 
 ---
 
--📋MYSQL Structure
+📋MYSQL Datebase Structure
 --
 
 ### 🧾 Users Table Structure

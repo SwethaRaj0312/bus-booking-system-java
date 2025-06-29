@@ -140,10 +140,10 @@ Student Developer | Java & MySQL Enthusiast
    git clone https://github.com/your-username/BusBookingSystemJava.git
 
 2.Open in Eclipse
-    File → Open Projects → Select BusBookingSystemJava
+-    File → Open Projects → Select BusBookingSystemJava
 
 3.Add JDBC Connector JAR
-    Right-click project → Build Path → Configure Build Path → Libraries → Add External JARs
+-    Right-click project → Build Path → Configure Build Path → Libraries → Add External JARs
 
 4.Setup MySQL Database
     CREATE DATABASE busbookingdb;

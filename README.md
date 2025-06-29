@@ -36,13 +36,13 @@ Student Developer | Java & MySQL Enthusiast
 
 ## 📁 Project Structure
 ```bash
-- **BusBookingSystemJava/**
-  - `src/`
-    - `Bus/`
-      - `BusBookingSystem.java` – Main GUI logic and page flow
-      - `DBConnection.java` – Handles MySQL JDBC connection
-  - `.classpath`, `.project` – Eclipse configuration files
-  - `Referenced Libraries/` – External libraries (JRE etc.)
+- BusBookingSystemJava/
+  - src/
+    - Bus/
+      - BusBookingSystem.java` – Main GUI logic and page flow
+      - DBConnection.java` – Handles MySQL JDBC connection
+  - .classpath`, `.project` – Eclipse configuration files
+  - Referenced Libraries/` – External libraries (JRE etc.)
   ```
 
 ---
@@ -146,9 +146,11 @@ Student Developer | Java & MySQL Enthusiast
 -    Right-click project → Build Path → Configure Build Path → Libraries → Add External JARs
 
 4.Setup MySQL Database
--    CREATE DATABASE busbookingdb;
--    USE busbookingdb;
--    SOURCE database/bus_booking.sql;
+```bash
+ CREATE DATABASE busbookingdb;
+ USE busbookingdb;
+ SOURCE database/bus_booking.sql;
+```
 
 5.Configure Credentials in DBConnection.java
 ```bash
